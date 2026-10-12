@@ -298,7 +298,6 @@ PGLIFE/
 - Admin dashboard is still under development
 - Requires continuous internet connectivity — no offline support
 - Only four cities are currently available (Delhi, Mumbai, Hyderabad, Bengaluru)
-- No online payment gateway; bookings are saved with a `pending` status
 - No dedicated mobile app — responsive web only
 - Some queries in `booking.php` insert request values directly into SQL; they should be converted to prepared statements (`mysqli_prepare`) before any real deployment
 
@@ -311,7 +310,6 @@ PGLIFE/
 - Owner portal for adding and managing properties
 - Real-time room availability and occupancy tracking
 - Booking confirmation, rent-due and cancellation notifications
-- Booking cancellation and history management
 - Prepared statements and stronger input validation across all pages
 - Analytics on bookings, rent collection and occupancy
 - Mobile app and more cities
