@@ -299,7 +299,6 @@ PGLIFE/
 - Requires continuous internet connectivity — no offline support
 - Only four cities are currently available (Delhi, Mumbai, Hyderabad, Bengaluru)
 - No dedicated mobile app — responsive web only
-- Some queries in `booking.php` insert request values directly into SQL; they should be converted to prepared statements (`mysqli_prepare`) before any real deployment
 
 ---
 
